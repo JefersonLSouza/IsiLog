@@ -113,7 +113,6 @@ class Log
         $this->CreateText();
 
         $this->$FolderDir =  $FolderDir;
-        $this->text =  $text;
 
         //Log File Creation
         //Criação de Arquivo para o Log
@@ -124,7 +123,7 @@ class Log
         //We generate the file name and the content that will be printed on the file.
         //Geramos o nome do arquivo e o conteúdo do mesmo.
         $fopen = fopen($dir, "w+");
-        fwrite($fopen, $this->text);
+        fwrite($fopen, $text);
         fclose($fopen);
     }
 
