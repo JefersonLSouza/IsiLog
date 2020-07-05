@@ -115,15 +115,15 @@ class Log
         $this->$FolderDir =  $FolderDir;
         $this->text =  $text;
 
-        $dir = $this->$FolderDir;
-
         //Log File Creation
         //Criação de Arquivo para o Log
         $file = $this->Name.'-' . date('Y-m-d') . '-'.time() .'.txt';
 
+        $dir = $this->$FolderDir . $file;
+        
         //We generate the file name and the content that will be printed on the file.
         //Geramos o nome do arquivo e o conteúdo do mesmo.
-        $fopen = fopen($dir . $file, "w+");
+        $fopen = fopen($dir, "w+");
         fwrite($fopen, $this->text);
         fclose($fopen);
     }
