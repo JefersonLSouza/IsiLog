@@ -25,7 +25,7 @@ IsiLog é um conjunto de classes desenvolvidas para a criação estruturada de L
 Uploader is available via Composer:
 
 ```bash
-"jeferson-lsouza/isilog": "^1.0"
+"jeferson-lsouza/isilog": "dev-master"
 ```
 
 or run
