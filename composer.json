@@ -1,5 +1,5 @@
 {
-  "name": "JefersonLSouza/IsiLog",
+  "name": "jeferson-lsouza/isilog",
   "description": "Componente para criação de logs estruturados para registrar informações sobre o seu sistema.",
   "keywords": [
     "Log PHP",
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "JefersonLSouza\\IsiLog\\": "Developers"
+      "jeferson-lsouza\\isilog\\": "Developers"
     }
   }
 }
