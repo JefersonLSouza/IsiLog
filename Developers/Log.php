@@ -54,17 +54,17 @@ class Log
 
            if (!is_dir($Folder . '/' . date('Y')) && !file_exists($Folder . '/' . date('Y'))) {
                 mkdir($Folder . '/' . date('Y'), 0755);
-            }
+           }
 
-             if (!is_dir($Folder . '/' . date('Y') . '/' . date('m'))
+           if (!is_dir($Folder . '/' . date('Y') . '/' . date('m'))
                 && !file_exists($Folder . '/' . date('Y') . '/' . date('m'))) {
                 mkdir($Folder . '/' . date('Y') . '/' . date('m'), 0755);
-            }
+           }
 
-            if (!is_dir($Folder . '/' . date('Y') . '/' . date('m') . '/' . date('d'))
+           if (!is_dir($Folder . '/' . date('Y') . '/' . date('m') . '/' . date('d'))
                 && !file_exists($Folder . '/' . date('Y') . '/' . date('m') . '/' . date('d'))) {
                 mkdir($Folder . '/' . date('Y') . '/' . date('m') . '/' . date('d'), 0755);
-            }
+           }
         }
     }
 
