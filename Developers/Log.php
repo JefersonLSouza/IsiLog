@@ -1,5 +1,19 @@
 <?php
 
+/*
+    ***********************************************
+   LOG.PHP -
+   Class responsible for creating .txt log files to store information about operations such as login, logout, monitoring.
+   Classe responsável pela criação de arquivos de log .txt para armazenar informações sobre operações como login, logout, monitoramento.
+
+   You can create a login with personalized information or use a method already structured to meet the minimum needs of a Log.
+   Você pode criar um login com as informações personalizadas ou utilizar uma método já estruturado para suprir as necessidades mínimas de um Log.
+    ***********************************************
+
+    Copyright (c) 2020, Jeferson L. Souza INTERLIG SOLUÇÕES INTELIGENTES
+    E-mail: contato@interligsolucoes.com.br
+    Site: http://interligsolucoes.com.br/
+*/
 
 namespace Developers;
 
