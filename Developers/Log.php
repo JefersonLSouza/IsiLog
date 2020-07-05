@@ -185,16 +185,16 @@ class Log
         $this->CreateFolder();
 
         //Texto Pré-definido
-        $this->content = "[LOG - ". date("d/m/Y H:i:s")."]";
+        $content = "[LOG - ". date("d/m/Y H:i:s")."]";
 
         //Texto personalizado e encaminhado via parâmetro.
-        $this->content.= "{$this->Data}";
+        $content.= "{$this->Data}";
 
         //We define the name of the folder and its subfolders.
         //Definimos o nome da pasta e suas subpastas.
         $FolderDir = $this->Folder . '/' . date('Y') . '/' . date('m') . '/' . date('d') . '/';
 
-        $this->CreateManual($FolderDir, $this->content);
+        $this->CreateManual($FolderDir, $content);
 
         return true;
 
