@@ -1,13 +1,13 @@
 # IsiLog
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@Jeferso28179293-blue.svg?style=flat-square)](https://twitter.com/Jeferso28179293)
-[![Source Code](http://img.shields.io/badge/source-JefersonLSouza/IsiLog-blue.svg?style=flat-square)](https://github.com/JefersonLSouza/IsiLog)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/JefersonLSouza/IsiLog.svg?style=flat-square)](https://packagist.org/packages/JefersonLSouza/IsiLog)
-[![Latest Version](https://img.shields.io/github/release/JefersonLSouza/IsiLog.svg?style=flat-square)](https://github.com/JefersonLSouza/IsiLog/releases)
+[![Source Code](http://img.shields.io/badge/source-jeferson-lsouza/isilog-blue.svg?style=flat-square)](https://github.com/jeferson-lsouza/isilog)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/jeferson-lsouza/isilog.svg?style=flat-square)](https://packagist.org/packages/jeferson-lsouza/isilog)
+[![Latest Version](https://img.shields.io/github/release/jeferson-lsouza/isilog.svg?style=flat-square)](https://github.com/jeferson-lsouza/isilog/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/JefersonLSouza/IsiLog.svg?style=flat-square)](https://scrutinizer-ci.com/g/JefersonLSouza/IsiLog)
-[![Quality Score](https://img.shields.io/scrutinizer/g/JefersonLSouza/IsiLog.svg?style=flat-square)](https://scrutinizer-ci.com/g/JefersonLSouza/IsiLog)
-[![Total Downloads](https://img.shields.io/packagist/dt/JefersonLSouza/IsiLog.svg?style=flat-square)](https://packagist.org/packages/JefersonLSouza/IsiLog)
+[![Build](https://img.shields.io/scrutinizer/build/g/jeferson-lsouza/isilog.svg?style=flat-square)](https://scrutinizer-ci.com/g/jeferson-lsouza/isilog)
+[![Quality Score](https://img.shields.io/scrutinizer/g/jeferson-lsouza/isilog.svg?style=flat-square)](https://scrutinizer-ci.com/g/jeferson-lsouza/isilog)
+[![Total Downloads](https://img.shields.io/packagist/dt/jeferson-lsouza/isilog.svg?style=flat-square)](https://packagist.org/packages/jeferson-lsouza/isilog)
 
 ###### IsiLog
 IsiLog is a set of classes developed for the structured creation of simple Log.
@@ -25,13 +25,13 @@ IsiLog é um conjunto de classes desenvolvidas para a criação estruturada de L
 Uploader is available via Composer:
 
 ```bash
-"JefersonLSouza/IsiLog": "^1.0"
+"jeferson-lsouza/isilog": "^1.0"
 ```
 
 or run
 
 ```bash
-composer require JefersonLSouza/IsiLog
+composer require jeferson-lsouza/isilog
 ```
 
 ## Documentation
@@ -93,7 +93,7 @@ Toda documentação de uso com exemplos práticos está disponível na pasta exa
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/JefersonLSouza/IsiLog/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/jeferson-lsouza/isilog/blob/master/CONTRIBUTING.md) for details.
 
 ## Support
 
@@ -106,9 +106,9 @@ Thank you
 ## Credits
 
 - [Jeferson L. Souza](https://github.com/JefersonLSouza) (Developer)
-- [Soluções Inteligentes](https://github.com/JefersonLSouza) (Team)
-- [All Contributors](https://github.com/JefersonLSouza/IsiLog/contributors) (Power)
+- [Soluções Inteligentes](https://github.com/jeferson-lsouza) (Team)
+- [All Contributors](https://github.com/jeferson-lsouza/isilog/contributors) (Power)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/JefersonLSouza/IsiLogblob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/jeferson-lsouza/isilog/blob/master/LICENSE) for more information.
