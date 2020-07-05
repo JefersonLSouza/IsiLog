@@ -1,0 +1,31 @@
+{
+  "name": "JefersonLSouza/IsiLog",
+  "description": "Componente para criação de logs estruturados para registrar informações sobre o seu sistema.",
+  "keywords": [
+    "Log PHP",
+    "Isi",
+    "Jeferson L Souza",
+    "Jeferson Souza",
+    "IsiLog",
+    "Log"
+  ],
+  "homepage": "http://interligsolucoes.com.br/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeferson Souza",
+      "email": "contato@interligsolucoes.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JefersonLSouza\\IsiLog\\": "Developers"
+    }
+  }
+}
