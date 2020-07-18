@@ -65,13 +65,14 @@ $log -> LogCreate(
 
 require __DIR__ . "/../vendor/autoload.php";
 
+ $Name = "IsiLog"; //Coloque o nome do seu log.
  $data = "
         URL: ".__DIR__."
         IP: {$_SERVER['REMOTE_ADDR']}
         BROWSER: {$_SERVER['HTTP_USER_AGENT']}
         PORT: {$_SERVER['REMOTE_PORT']}
 
-        Result do {$Name}:
+        Resultado do {$Name}:
         Usuário: Jeferson L. Souza
         E-mail: contato@interligsolucoes.com.br
         Perfil: Admin
